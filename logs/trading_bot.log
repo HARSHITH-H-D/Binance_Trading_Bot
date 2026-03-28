@@ -1,0 +1,35 @@
+2026-03-28 19:11:46 | INFO     | trading_bot | Initializing Binance Futures Testnet client...
+2026-03-28 19:11:47 | INFO     | trading_bot | Client initialized successfully.
+2026-03-28 20:52:23 | INFO     | trading_bot | Polling attempt 1/5 | Status: FILLED
+2026-03-28 20:52:23 | INFO     | trading_bot | Order FILLED | Final Response: {'orderId': 13002418509, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJdedd4017f8e534240dd607', 'price': '0.00', 'avgPrice': '66975.40000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQuote': '669.75400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774711340492, 'updateTime': 1774711340492}
+2026-03-28 20:52:23 | INFO     | trading_bot | Trading bot finished successfully.
+2026-03-28 21:09:38 | INFO     | trading_bot | Trading bot started.
+2026-03-28 21:09:38 | INFO     | trading_bot | Validation passed | symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None stop_price=None
+2026-03-28 21:09:38 | INFO     | trading_bot | Initializing Binance Futures Testnet client...
+2026-03-28 21:09:39 | INFO     | trading_bot | Client initialized successfully.
+2026-03-28 21:09:39 | INFO     | trading_bot | Placing order | Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}
+2026-03-28 21:09:40 | INFO     | trading_bot | Order placed | Initial Response: {'orderId': 13002442758, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4d534d41416c6a9d146458', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774712380795}
+2026-03-28 21:09:44 | INFO     | trading_bot | Polling attempt 1/5 | Status: FILLED
+2026-03-28 21:09:44 | INFO     | trading_bot | Order FILLED | Final Response: {'orderId': 13002442758, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ4d534d41416c6a9d146458', 'price': '0.00', 'avgPrice': '67042.20000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQuote': '670.42200', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774712380795, 'updateTime': 1774712380795}
+2026-03-28 21:09:44 | INFO     | trading_bot | Trading bot finished successfully.
+2026-03-28 21:11:08 | INFO     | trading_bot | Trading bot started.
+2026-03-28 21:11:08 | INFO     | trading_bot | Validation passed | symbol=BTCUSDT side=SELL type=LIMIT qty=0.01 price=95000.0 stop_price=None
+2026-03-28 21:11:08 | INFO     | trading_bot | Initializing Binance Futures Testnet client...
+2026-03-28 21:11:09 | INFO     | trading_bot | Client initialized successfully.
+2026-03-28 21:11:09 | INFO     | trading_bot | Placing order | Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.01, 'type': 'LIMIT', 'price': 95000.0, 'timeInForce': 'GTC'}
+2026-03-28 21:11:10 | INFO     | trading_bot | Order placed | Initial Response: {'orderId': 13002445292, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJe14bd3adb68b6f2b6c7c2c', 'price': '95000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774712470366}
+2026-03-28 21:11:10 | INFO     | trading_bot | Trading bot finished successfully.
+2026-03-28 21:14:31 | INFO     | trading_bot | Trading bot started.
+2026-03-28 21:14:31 | INFO     | trading_bot | Validation passed | symbol=BTCUSDT side=SELL type=STOP_LIMIT qty=0.01 price=64000.0 stop_price=65000.0
+2026-03-28 21:14:31 | INFO     | trading_bot | Initializing Binance Futures Testnet client...
+2026-03-28 21:14:32 | INFO     | trading_bot | Client initialized successfully.
+2026-03-28 21:14:32 | INFO     | trading_bot | Placing order | Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.01, 'type': 'STOP', 'price': 64000.0, 'stopPrice': 65000.0, 'timeInForce': 'GTC'}
+2026-03-28 21:14:33 | INFO     | trading_bot | Order placed | Initial Response: {'algoId': 1000000036390159, 'clientAlgoId': 'x-Cb7ytekJ4367642fc45bf0dcdb3290', 'algoType': 'CONDITIONAL', 'orderType': 'STOP', 'symbol': 'BTCUSDT', 'side': 'SELL', 'positionSide': 'BOTH', 'timeInForce': 'GTC', 'quantity': '0.010', 'algoStatus': 'NEW', 'triggerPrice': '65000.00', 'price': '64000.00', 'icebergQuantity': None, 'selfTradePreventionMode': 'EXPIRE_MAKER', 'workingType': 'CONTRACT_PRICE', 'priceMatch': 'NONE', 'closePosition': False, 'priceProtect': False, 'reduceOnly': False, 'createTime': 1774712673015, 'updateTime': 1774712673019, 'triggerTime': 0, 'goodTillDate': 0}
+2026-03-28 21:14:33 | INFO     | trading_bot | Trading bot finished successfully.
+2026-03-28 21:24:20 | INFO     | trading_bot | Trading bot started.
+2026-03-28 21:24:20 | INFO     | trading_bot | Validation passed | symbol=BTCUSDT side=SELL type=STOP_LIMIT qty=0.01 price=66935.0 stop_price=66940.0
+2026-03-28 21:24:20 | INFO     | trading_bot | Initializing Binance Futures Testnet client...
+2026-03-28 21:24:21 | INFO     | trading_bot | Client initialized successfully.
+2026-03-28 21:24:21 | INFO     | trading_bot | Placing order | Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.01, 'type': 'STOP', 'price': 66935.0, 'stopPrice': 66940.0, 'timeInForce': 'GTC'}
+2026-03-28 21:24:21 | INFO     | trading_bot | Order placed | Initial Response: {'algoId': 1000000036395394, 'clientAlgoId': 'x-Cb7ytekJ8be98356dcc4ca3fce5353', 'algoType': 'CONDITIONAL', 'orderType': 'STOP', 'symbol': 'BTCUSDT', 'side': 'SELL', 'positionSide': 'BOTH', 'timeInForce': 'GTC', 'quantity': '0.010', 'algoStatus': 'NEW', 'triggerPrice': '66940.00', 'price': '66935.00', 'icebergQuantity': None, 'selfTradePreventionMode': 'EXPIRE_MAKER', 'workingType': 'CONTRACT_PRICE', 'priceMatch': 'NONE', 'closePosition': False, 'priceProtect': False, 'reduceOnly': False, 'createTime': 1774713261675, 'updateTime': 1774713261675, 'triggerTime': 0, 'goodTillDate': 0}
+2026-03-28 21:24:21 | INFO     | trading_bot | Trading bot finished successfully.
